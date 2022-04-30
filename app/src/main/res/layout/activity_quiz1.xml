@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz1"
+    android:layout_margin="40dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Quiz 1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="265dp"
+
+        app:srcCompat="@drawable/q1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A cette intersection, je laisse la priorité à droite :"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgquiz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/quiz1Answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oui" />
+
+        <RadioButton
+            android:id="@+id/quiz1Answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/logoo" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/col"
+        android:textSize="30dp"
+        android:drawableTop="@drawable/ic_baseline_timer_24"/>
+
+</LinearLayout>

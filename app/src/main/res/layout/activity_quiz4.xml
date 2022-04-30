@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    tools:context=".Quiz4">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="Quiz 4"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/q4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="En tant qu'automobiliste, vous devez etre plus vigilant lorsque :"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/rgquiz4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Le tramway est arrété" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le tramway circule" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/nextBtn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/black"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        app:srcCompat="@drawable/logoo" />
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/col"
+        android:textSize="30dp"
+        android:drawableTop="@drawable/ic_baseline_timer_24"/>
+</LinearLayout>
